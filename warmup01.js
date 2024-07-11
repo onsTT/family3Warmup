@@ -3,27 +3,40 @@
 
 // function declaration
 function MyPartnerName(firstname, lastname) {
-	// return firstname+" "+lastname  
+	// return firstname+" "+lastname 
+	return firstname+" "+lastname
 }
 
 
-let MultipleOf13orNot = function() {
-
+let MultipleOf13orNot = function(number) { 
+   if(number%13===0){
+	return true
+   } else {
+	return false
+   }
 }
 
 
 
 
 
-// 4-create a function that takes a age as a parametre and return that age in seconds.*//
+// 3-create a function that takes an age as a parametre and return that age in seconds.*//
 
-const  AgeInSeconds = (age) =>  {
+const  AgeInSeconds = (age) =>  { 
 
 }
-//  * 5 - Write a function sameLength that accepts two strings as arguments, and returns true if those strings have the same length, and false otherwise.
+//  * 4 - Write a function sameLength that accepts two strings as arguments, and returns true if those strings have the same length, and false otherwise.
 
-const sameLength=(string1, string2)=> {
-}
+const sameLength=(string1, string2)=> { 
+	for(let i=0;i<array.length;i++) {
+		if(string1.length===string2.length){
+			true
+		}else{
+			false
+		}
+		}
+	}
+
 /**
  *? 6 - Write a function called (reverseStr) that takes a string as an input and returns the reverse of each letter
  *? followed by a number starting from zero(solve it using while loop).
@@ -33,7 +46,10 @@ const sameLength=(string1, string2)=> {
  * @return {string}
  */
 
-let reverseStr = function (str){
+let reverseStr = function (str){ 
+	return str.split('').reverse('').join;
+	const reversed= reverseStr('');
+
 }
 /**
 // * 7 Write a function called laugh() that takes one parameter,
@@ -44,7 +60,11 @@ let reverseStr = function (str){
  * @param {number} n
  * @return {string}
  */
-const laugh= function (num){
+const laugh= function (num){ 
+	let laugh=0;
+	for(i=0;i<array.length;i++){
+		laugh +=array[i];
+	} return laugh
 
 }
 
@@ -57,7 +77,9 @@ const laugh= function (num){
  * @return {Array}
  */
 
-let reverseArray = (array ) => {}
+let reverseArray = (array ) => {
+
+}
 
 
 /**
