@@ -23,19 +23,20 @@ let MultipleOf13orNot = function(number) {
 // 3-create a function that takes an age as a parametre and return that age in seconds.*//
 
 const  AgeInSeconds = (age) =>  { 
+	const AgeInSeconds=365*24*60*60;
+	return age * AgeInSeconds
 
 }
 //  * 4 - Write a function sameLength that accepts two strings as arguments, and returns true if those strings have the same length, and false otherwise.
 
 const sameLength=(string1, string2)=> { 
-	for(let i=0;i<array.length;i++) {
 		if(string1.length===string2.length){
-			true
+			return true
 		}else{
-			false
+			return false
 		}
 		}
-	}
+	
 
 /**
  *? 6 - Write a function called (reverseStr) that takes a string as an input and returns the reverse of each letter
@@ -47,8 +48,16 @@ const sameLength=(string1, string2)=> {
  */
 
 let reverseStr = function (str){ 
-	return str.split('').reverse('').join;
-	const reversed= reverseStr('');
+	let result=""
+	let index=0
+	let i = str.length-1
+	while ( i>=0){
+		result+=str[i]+index
+		index++
+		i--
+	}
+	return result
+
 
 }
 /**
@@ -61,7 +70,7 @@ let reverseStr = function (str){
  * @return {string}
  */
 const laugh= function (num){ 
-	let laugh=0;
+	let result=0;
 	for(i=0;i<array.length;i++){
 		laugh +=array[i];
 	} return laugh
