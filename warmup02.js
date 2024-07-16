@@ -5,7 +5,13 @@
  * counting(3); // => '1, 2, 3'
  */
 
-let countring = (number) => 
+let countring = (number) => {
+    for(i=0;i<array.length;i++) {
+        let count=0;
+        count +=1;
+    }
+    return count;
+}
 
 
 /**
@@ -14,7 +20,9 @@ let countring = (number) =>
  * @return {any}
  */
 
- flet midElement =function (array) {
+ let midElement =function (array) {
+    const th= array.length % 2 == 0;
+        return array[th];
    
 
 }
@@ -29,6 +37,12 @@ let countring = (number) =>
 
   
 let sameLength =function (array) {
+      const group={};
+    for(let element of array) {
+        if(e1.length=e2.length)
+      group[e1,e2].push 
+
+    } return group;
   
 }
 
@@ -47,6 +61,12 @@ let sameLength =function (array) {
 
 
  let findAll = function (array, n) {
+    const nbs={};
+    const element;
+    if(element===n) {
+        nbs.push;
+    }
+    return nbs;
    
 };
 
@@ -58,6 +78,8 @@ let sameLength =function (array) {
 // Note : you can`t use any built-in functions .
 
 let reverseWord=(string) => {
+    const wordsarr=string.split
+
 
 }
 
@@ -90,4 +112,4 @@ let objKey=(object)=>{
  * @param {Object} obj
  * @return number
  */
-let objLength=(obj) =>
+let objLength=(obj) => {}
