@@ -6,12 +6,16 @@
  */
 
 let countring = (number) => {
-    for(i=0;i<array.length;i++) {
-        let count=0;
-        count +=1;
-    }
-    return count;
+    let result=""
+    for(let i=1;i<number;i++) {
+        if(i===number){
+            return (result += i);
+        }
+       result += i + ",";
+
+    } 
 }
+// .push .join 
 
 
 /**
@@ -20,12 +24,10 @@ let countring = (number) => {
  * @return {any}
  */
 
- let midElement =function (array) {
-    const th= array.length % 2 == 0;
-        return array[th];
+ let midElement = (array) => array.at(Math.floor(array.length/2))
    
 
-}
+
 
 /**
  * 4 - write a function called (sameLength) that takes array of strings and returns an array of the strings that have the same length
@@ -37,13 +39,16 @@ let countring = (number) => {
 
   
 let sameLength =function (array) {
-      const group={};
-    for(let element of array) {
-        if(e1.length=e2.length)
-      group[e1,e2].push 
-
-    } return group;
-  
+      let array=[];
+      for(i=0;i<array.length;i++) {
+        for(j=i+1;j>array.length;j++) {
+            if(array[i].length===array[j].length)
+                array.push(array[i],array[j]) 
+          
+        }
+        
+    } 
+  return arr
 }
 
 /**
@@ -61,8 +66,7 @@ let sameLength =function (array) {
 
 
  let findAll = function (array, n) {
-    const nbs={};
-    const element;
+    const nbs=[];
     if(element===n) {
         nbs.push;
     }
@@ -78,7 +82,7 @@ let sameLength =function (array) {
 // Note : you can`t use any built-in functions .
 
 let reverseWord=(string) => {
-    const wordsarr=string.split
+    
 
 
 }
@@ -101,7 +105,7 @@ function sumOfFirstAndLast(number) {
  */
 
 let objKey=(object)=>{
-   
+    return object.keys(object);   
 }
 
 /**
@@ -112,4 +116,6 @@ let objKey=(object)=>{
  * @param {Object} obj
  * @return number
  */
-let objLength=(obj) => {}
+let objLength=(obj) => {
+    return object.keys(obj).length;
+}
