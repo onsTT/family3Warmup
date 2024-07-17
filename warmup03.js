@@ -9,6 +9,7 @@
 
 
 function objSort(array){
+    arr.sort(array);
 
     
 }
@@ -42,6 +43,9 @@ function objSort(array){
  * explanation: There is only 1 unique element: 1.
 * 
  */
+ function CountingUnique(array){
+    return new set ().size;
+ }
 
 /**
  * Title: Sum of Array Pairs
@@ -75,3 +79,7 @@ function objSort(array){
  * Output: []
  * explanation: There are no pairs that add up to the target sum of 10.
  */
+function SumArraypairs(array){
+    const Sum=[].reduce((acc,element)=>(acc+element,0))
+    console.log(Sum);
+}
