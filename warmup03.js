@@ -9,7 +9,11 @@
 
 
 function objSort(array){
-    arr.sort(array);
+    //return array.sort(a,b)=>a.id-b.id(sghir lel kbir); ou b-a(kbir l sghir)
+
+
+
+
 
     
 }
@@ -30,12 +34,12 @@ function objSort(array){
  * Example 1:
  * Input: arr = [1, 2, 2, 3, 4, 4, 5]
  * Output: 5
- * Explanation: There are 5 unique elements: 1, 2, 3, 4, and 5.
+ * Explanation: There are 5 unique elements: 1, 3, 5.
  * 
  * Example 2:
  * Input: arr = [10, 20, 10, 30, 40, 50, 50]
  * Output: 5
- * Explanation: There are 5 unique elements: 10, 20, 30, 40, and 50.
+ * Explanation: There are 5 unique elements:  20, 30, 40.
  * 
  * Example 3:
  * Input: arr = [1, 1, 1, 1, 1, 1]
@@ -43,9 +47,14 @@ function objSort(array){
  * explanation: There is only 1 unique element: 1.
 * 
  */
- function CountingUnique(array){
-    return new set ().size;
- }
+ //function CountingUnique(iteration){ //l set tkhabili kn l hajet li ma tetaawadch (data structure)
+    //return new set (iteration).size; 
+ let uniqueElements = (array)=> {
+ for (i=0;i<array.length;i++) {
+    
+ } 
+ 
+ } 
 
 /**
  * Title: Sum of Array Pairs
