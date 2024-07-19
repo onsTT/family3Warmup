@@ -6,14 +6,15 @@
  // "1 is odd"
  // "0 is even"
 
-let iterateAndLog (n,c=0)=> { 
-  if(c>n) return;
-  if (c % 2===0){
-  console.log("$c id even");
+let iterateAndLog =(n)=> { 
+  n=n-1
+  if(n===0) return
+  if (n % 2===0){
+  console.log(`${n} is even`)
   } else{
-    console.log("$c is odd");
+    console.log(`${n} is odd`);
   }
-  return iterateAndLog(n,c + 1);
+  return iterateAndLog(n);
 }
 
 
@@ -32,10 +33,12 @@ let iterateAndLog (n,c=0)=> {
  //  Write a function called fib that accepts a number n as a parameter and computes the nth fibonacci number using the above rules.
  
 
-function fib(number) {
-  if(n<= i)return 1;
+function fib(n) {
+  if(n===0 || n===1)
+  return 1;
   return fib(n-1)+fib(n-2);
 }
+//let fib(n)=> n<= 1: fib(n-1)+fib(n-2)
 
 
   // TODO: your work goes here
@@ -44,6 +47,9 @@ function fib(number) {
 //takes a number as a parameter and returns the sum of the first and last digits. Please do this without turning the number into a string.
 
 function sumOfFirstAndLast(number) {
-  
+   let lastdigit= number % n;
+   while(number>n){
+
+   }
  
 } 
